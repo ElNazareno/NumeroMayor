@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/textos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:ignore="MissingConstraints">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationWellcome"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            android:layout_gravity="center"
+            app:lottie_rawRes="@raw/welcome" />
+
+        <LinearLayout
+            android:id="@+id/fila1"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="0dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation1"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.14"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/avatar" />
+
+            <EditText
+                android:id="@+id/textViewAlumno01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="1.0"
+                android:numeric="decimal"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="0dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation2"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.14"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/avatar2" />
+
+            <EditText
+                android:id="@+id/textViewAlumno02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="2.0"
+                android:textColor="@color/white"
+                android:numeric="decimal"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fila3"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="0dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation3"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.14"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/avatar" />
+
+            <EditText
+                android:id="@+id/textViewAlumno03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="2.0"
+                android:numeric="decimal"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="0dp"
+            android:orientation="horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation4"
+                android:layout_width="93dp"
+                android:layout_height="93dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.14"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/avatar2" />
+
+            <EditText
+                android:id="@+id/textViewAlumno04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center|start"
+                android:text="3.0"
+                android:textColor="@color/white"
+                android:numeric="decimal"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center|start"
+            android:text="TextView"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="145dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center|start"
+            android:text="TextView"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="215dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <LinearLayout
+            android:id="@+id/fila5"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:textColor="@color/white"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="CALCULAR"
+                android:onClick="Calcular"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:textColor="@color/white"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="RESETAR"
+                android:onClick="Resetear"/>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
